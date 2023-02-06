@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("./Rome.jpeg");
+    background-position: center;
+
+    color: white;
+
+    /*홈페이지에 있는 텍스트나 UI를 가운데로 정렬할수 있게끔 만들어 주는 묶음코드*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*html 메인화면*/
+.main{
+    width: 100vw;
+    height: 80vh;
+    /*홈페이지에 있는 텍스트나 UI를 가운데로 정렬할수 있게끔 만들어 주는 묶음코드*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*html 명언화면*/
+.quote{
+    width: 100vw;
+    height: 20vh;
+    /*홈페이지에 있는 텍스트나 UI를 가운데로 정렬할수 있게끔 만들어 주는 묶음코드*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.time{
+    font-size: 80px;
+    font-weight: bold;
+}
+.greeting{
+    font-size: 50px;
+}
+.todo{
+    font-size: 35px;
+}
+.author{
+    font-size: 30px;
+    font-style: italic;
+}
